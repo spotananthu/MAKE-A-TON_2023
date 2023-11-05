@@ -86,7 +86,35 @@ html{
 
 
 
+/* Add this CSS code to your stylesheet or within a <style> tag in the HTML head */
 
+@media (max-width: 768px) {
+    .navbar {
+      display: none; /* Hide the menu by default for small screens */
+      flex-direction: column; /* Stack menu items vertically */
+      position: absolute;
+      top: 70px; /* Adjust the top position as needed */
+      right: 0;
+      background-color: #333; /* Background color for the menu */
+      width: 100%;
+    }
+  
+    .navbar.active {
+      display: flex; /* Show the menu when active */
+    }
+  
+    .navbar a {
+      padding: 10px 20px; /* Adjust padding as needed */
+    }
+  
+    #menu-btn {
+      display: block; /* Show the menu button on small screens */
+      cursor: pointer;
+      color: #fff;
+    }
+  }
+
+  
 /* navbar sections starts */
 .header {
     padding: 3rem 9%;
