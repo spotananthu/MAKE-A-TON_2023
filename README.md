@@ -15,3 +15,6 @@ Our software complements the hardware, addressing the challenge of cohesive batt
 
 **"Modula" Website:**
 We've created the "Modula" website in parallel that bridges the hardware and software components. This platform offers a secure and user-friendly interface for vehicle owners, enabling them to access alerts related to battery issues and essential services. This enhancement contributes to an overall improved user experience.
+ 
+LIVE DEMO (Website):
+https://modula-oeo4.onrender.com/
