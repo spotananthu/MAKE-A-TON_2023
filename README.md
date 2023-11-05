@@ -1,4 +1,4 @@
-**MODULA - Make a Ton 6.O**
+**45_ZENITH_MODULA**
 
 This project is an integrated battery monitoring system designed for electric vehicles, offering real-time data collection and analysis. It aims to enhance battery safety and performance. Target audience includes electric vehicle manufacturers, retailers, and end-users.
 
@@ -28,7 +28,11 @@ https://modula-oeo4.onrender.com/
 
 **Mobile Application:** https://drive.google.com/drive/folders/16cksuj0_IU0EfXpHeCgt0RjjpN3F4t2m?usp=sharing
 
+**LIVE DEMO (Hardware Link):** https://drive.google.com/file/d/1yyHGFbzYJ9gaqKlA2X2Pux0KdtQLWhlW/view?usp=sharing
+
 **HOW IT WORKS?**
+
+HARDWARE
 
 As the basic objective is to predict and detect fault,it is detected using LM35 heat sensor,
 Current and Voltage sensor.
@@ -46,6 +50,11 @@ microcontroller and the details will be send to user.
 ● There’s a high chance of short circuit, overloading, overcharging in EVs. To provide
 protection to EVs, we include emergency turn off system. If such a fault is detected, the
 entire system will be turned off and only be turned on after rectifying the issue manually.
+
+SOFTWARE
+
+Web app to monitor the real time data using MERN Stack.
+Realtime Data including Voltage, Current, Resistance and Temperature of Battery from h/w is displayed in Dashboard.
 
 
 
